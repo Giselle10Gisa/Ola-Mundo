@@ -21,7 +21,8 @@ Em meu caso, particularmente, utilizei como fonte de estudos para melhorias no m
 * Visual Studio Code
 
 ### Acesso ao projeto:
-      Caso tenha despertado seu interesse em ver como o projeto ficou, aqui está o link para acesso.
+
+Caso tenha despertado seu interesse em ver como o projeto ficou, aqui está o [link para acesso](https://ola-mundo-jet.vercel.app/).
 
 ### Desenvolvedores:
 _Giselle Machado Lopes_
