@@ -2,7 +2,6 @@ import styles from "./Redes.module.css"
 import fotoDesenho from "../../assets/perfil_desenho.png"
 import { Link } from "react-router-dom"
 import linkedin from "../../assets/linkedin.png"
-import insta from "../../assets/insta.png"
 import github from "../../assets/GitHub.png"
 
 export default function Redes() {
@@ -26,7 +25,6 @@ export default function Redes() {
         <ul>
           <li><img src={linkedin} alt="Logo linkedin" className={styles.linkedinImg}/><Link to="https://www.linkedin.com/in/giselle-machado-lopes-82a045262" target="_blank">Linkedin</Link></li>
           <li><img src={github} alt="Logo github" className={styles.githubImg}/><Link to="https://github.com/" target="_blank">Github</Link></li>
-          <li><img src={insta} alt="Logo instagram" className={styles.instaImg}/><Link to="https://www.instagram.com/gigigisaaa/" target="_blank">Instagram</Link></li>
         </ul>
       </nav>
     </main>
