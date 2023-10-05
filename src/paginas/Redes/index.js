@@ -10,7 +10,7 @@ export default function Redes() {
       <div className={styles.bannerRedes}>
         <div className={styles.oi}>
           <h1 className={styles.titulo}>Minhas redes sociais</h1>
-          <p className={styles.paragrafo}>Para me encontrar, aqui estão algumas redes sociais (você provavelmente teve acesso a esta página por uma delas), não sou tão ativa em nenhuma delas, apareço com pouca frequência, mas, de qualquer forma, fica como fonte de contato :)</p>
+          <p className={styles.paragrafo}>Para me encontrar, aqui estão algumas redes (você provavelmente teve acesso a esta página por uma delas), não apareço com frequência nelas, mas, de qualquer forma, fica como fonte de contato :)</p>
         </div>
         <div className={styles.imagem}>
         <img
