@@ -88,7 +88,6 @@
   - circulo.png
   - erro_404.png
   - GitHub.png
-  - insta.png
   - linkedin.png
   - perfil_desenho.png
   - sobre_mim_capa.png
