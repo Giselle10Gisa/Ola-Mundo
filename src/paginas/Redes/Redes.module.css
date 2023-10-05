@@ -1,0 +1,95 @@
+.bannerRedes{
+  background-color: var(--amarelo-principal);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 50px;
+}
+
+.titulo{
+  font-family: var(--fonte-secundaria);
+  font-size: 4rem;
+  margin-top: 4.875rem;
+  margin-bottom: 2rem;
+}
+
+.paragrafo{
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.meuDesenho{
+  position: relative;
+  height: 406px;
+  right: 0;
+  bottom: 0;
+  width: 30vw;
+  border-radius: 30%;
+  margin: 30px;
+}
+
+.redesLinks{
+  padding: 2.5rem 7.5rem 2.5rem;
+  color: var(--cor-fonte-post);
+  font-size: 20px;
+}
+
+.linkedinImg{
+  height: 50px;
+  padding: 10px 10px 0px 10px;
+}
+
+.instaImg{
+  height: 50px;
+  padding: 10px 10px 0px 10px;
+}
+
+.githubImg{
+  height: 50px;
+  padding: 10px 10px 0px 10px;
+}
+
+@media (max-width: 1100px) {
+  .bannerRedes{
+    padding: 3.5rem 1.5rem;
+  }
+  
+  .titulo{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragrafo{
+    margin-bottom: 1.5rem;
+  }
+
+  .meuDesenho{
+    height: 338px;
+    width: 25vw;
+  }
+}
+
+@media (max-width: 744px) {
+  .bannerRedes{
+    padding: 2rem 1rem;
+    display: block;
+  }
+  
+  .titulo{
+    margin-bottom: 2rem;
+  }
+
+  .paragrafo{
+    margin-bottom: 2rem;
+  }
+
+  .meuDesenho{
+    height: 307px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 170px;
+    transform: translate(5rem, 0px);
+  }
+}

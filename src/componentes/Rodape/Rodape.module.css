@@ -1,0 +1,13 @@
+.rodape {
+  background-color: var(--amarelo-principal);
+  color: var(--preto);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.link {
+  text-decoration: underline;
+}
